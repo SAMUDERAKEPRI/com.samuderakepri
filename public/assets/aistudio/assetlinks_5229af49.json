@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.samuderakepri.twa",
+        "sha256_cert_fingerprints": ["5C:2A:D9:83:8A:C0:F8:50:C4:94:35:55:C0:65:16:C1:01:46:E8:37:63:92:13:6B:01:0F:04:D9:8F:60:3E:87"]
+      }
+    }]

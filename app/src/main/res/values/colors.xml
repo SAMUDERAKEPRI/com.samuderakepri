@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#071426</color>
+    <color name="splash_background_card">#0D253F</color>
+    <color name="splash_primary">#00C9A7</color>
+    <color name="splash_accent_gold">#F6C90E</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="brand_navy">#0A2540</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

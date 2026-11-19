@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411831342031",
+    "project_id": "twa-4dc715cb",
+    "storage_bucket": "twa-4dc715cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411831342031:android:0147155eefd8e6bc17f8ba",
+        "android_client_info": {
+          "package_name": "io.github.samuderakepri.twa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAitYrXl8lxA21oiBc3jP8gFv_rueCLZ50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

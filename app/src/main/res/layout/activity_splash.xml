@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient"
+    tools:context=".SplashActivity">
+
+    <!-- Konten Tengah: Logo + Nama Perusahaan -->
+    <LinearLayout
+        android:id="@+id/centerContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Logo PT Media Samudera Kepri dengan frame elegan -->
+        <FrameLayout
+            android:id="@+id/logoWrapper"
+            android:layout_width="140dp"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="136dp"
+                android:layout_height="136dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_samudera_official" />
+        </FrameLayout>
+
+        <!-- Nama Perusahaan -->
+        <TextView
+            android:id="@+id/tvCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="SAMUDERAKEPRI.CO.ID"
+            android:textColor="@color/text_white"
+            android:textSize="20sp"
+            android:letterSpacing="0.08"
+            android:textStyle="bold" />
+
+        <!-- Tagline Portal Berita -->
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Informasi Terpercaya &amp; Akurat • PT Media Samudera Kepri"
+            android:textColor="@color/splash_primary"
+            android:textSize="12sp" />
+
+        <!-- Indikator Loading Modern -->
+        <ProgressBar
+            android:id="@+id/splashProgressBar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="28dp"
+            android:indeterminateTint="@color/splash_primary" />
+    </LinearLayout>
+
+    <!-- Footer Copyright di Bawah Layar -->
+    <TextView
+        android:id="@+id/tvCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="www.samuderakepri.co.id"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:letterSpacing="0.05" />
+
+</RelativeLayout>
